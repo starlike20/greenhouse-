@@ -1,61 +1,69 @@
-# Greenhouse Template Project
+# Projet Modèle de Serre
 
 ## Description
 
-This project implements a greenhouse management simulation using C++ with associated graphical assets. It includes functionalities to handle interactions with graphical elements like characters, enemies, and items in a simulated greenhouse environment.
+Ce projet implémente une simulation de gestion de serre en C++ avec des ressources graphiques associées. Il inclut des fonctionnalités pour gérer les interactions avec des éléments graphiques tels que des personnages, des ennemis et des objets dans un environnement de serre simulé.
 
 ---
 
-## Features
+## Fonctionnalités
 
-- Simulation of greenhouse activities with animated characters and enemies.
-- Graphical elements for user interaction, including items, insects, and the environment.
-- Organized codebase with modular components for ease of understanding and maintenance.
-
----
-
-## Project Structure
-
-The project is organized into the following components:
-
-### 1. **Source Code**
-- `gh.cpp`: Main file containing the core logic of the greenhouse simulation.
-- `makefile`: Automates the build process for the project.
-
-### 2. **Graphical Assets**
-- Located in the `images/` directory, including:
-  - **Characters**: Animations for characters and their actions.
-  - **Enemies**: Animations for various insects like spiders, caterpillars, and wasps.
-  - **Environment**: Greenhouse visuals and supplementary graphics.
-
-### 3. **Presentation Module**
-- `presentation/`: Contains code (`presentation.c` and `presentation.h`) to handle display elements and interactions.
+- Simulation des activités dans une serre avec des personnages animés et des ennemis.
+- Éléments graphiques pour l'interaction utilisateur, y compris des objets, des insectes et l'environnement.
+- Base de code organisée avec des composants modulaires pour une compréhension et une maintenance simplifiées.
 
 ---
 
-## Prerequisites
+## Structure du Projet
 
-- **C++ Compiler**: GCC or any compatible C++ compiler.
-- **Make Utility**: Required to execute the `makefile` for building the project.
-- **Image Viewer**: To view `.bmp` graphical assets if needed.
+Le projet est organisé comme suit :
+
+### 1. **Code Source**
+
+- `gh.cpp` : Fichier principal contenant la logique centrale de la simulation de serre.
+- `makefile` : Automatise le processus de construction du projet.
+
+### 2. **Ressources Graphiques**
+
+- Situées dans le répertoire `images/`, incluant :
+  - **Personnages** : Animations des personnages et de leurs actions.
+  - **Ennemis** : Animations pour divers insectes tels que des araignées, des chenilles et des guêpes.
+  - **Environnement** : Visuels de la serre et graphiques supplémentaires.
+
+### 3. **Module de Présentation**
+
+- `presentation/` : Contient le code (`presentation.c` et `presentation.h`) pour gérer les éléments d'affichage et les interactions.
 
 ---
 
-## Installation and Execution
+## Prérequis
 
-### 1. **Clone the Repository**
+- **Compilateur C++** : GCC ou tout autre compilateur C++ compatible.
+- **Utilitaire Make** : Requis pour exécuter le `makefile` et construire le projet.
+- **Visionneuse d'Images** : Pour afficher les ressources graphiques au format `.bmp` si nécessaire.
+
+---
+
+## Installation et Exécution
+
+### 1. **Cloner le Dépôt**
+
 ```bash
-git clone <repository-url>
+git clone <url-du-dépôt>
 ```
 
-### 2. **Build the Project**
-Navigate to the project directory and run:
+### 2. **Construire le Projet**
+
+Accédez au répertoire du projet et exécutez :
+
 ```bash
 make
 ```
 
-### 3. **Run the Application**
-Execute the generated binary:
+### 3. **Exécuter l'Application**
+
+Exécutez le binaire généré :
+
 ```bash
 ./gh
 ```
@@ -64,20 +72,23 @@ Execute the generated binary:
 
 ## Contribution
 
-Contributions are welcome. To contribute:
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/NewFeature`.
-3. Commit your changes: `git commit -m 'Add new feature'`.
-4. Push to the branch: `git push origin feature/NewFeature`.
-5. Submit a pull request.
+Les contributions sont les bienvenues. Pour contribuer :
+
+1. Forkez le dépôt.
+2. Créez une branche pour votre fonctionnalité : `git checkout -b feature/NouvelleFonctionnalite`.
+3. Commitez vos modifications : `git commit -m 'Ajout d\'une nouvelle fonctionnalité'`.
+4. Poussez la branche : `git push origin feature/NouvelleFonctionnalite`.
+5. Soumettez une Pull Request.
 
 ---
 
-## Authors
-This project was developed by [Your Name/Team].
+## Auteurs
+
+Ce projet a été développé par [Votre Nom/Équipe].
 
 ---
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## Licence
+
+Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus de détails.
 
